@@ -1,0 +1,51 @@
+# 编译生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+dirs
+
+# 测试二进制文件
+*.test
+
+# 覆盖率工具生成的文件
+*.out
+*.prof
+*.cov
+
+# Go 特定的临时文件和目录
+/vendor/
+/Godeps/
+.glide/
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# 依赖管理工具生成的文件
+go.work
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 临时文件
+tmp/
+temp/
