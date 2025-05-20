@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     
     # 设置 Docker 环境用于编译 Go 1.10.7
     - name: 设置 Docker
@@ -29,7 +29,7 @@ jobs:
     
     # 上传编译好的可执行文件作为构建产物
     - name: 上传构建产物
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: fileserver-winxp
         path: fileserver.exe
